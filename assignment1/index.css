@@ -1,3 +1,414 @@
+@media (width >=1500px) {
+    .body {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        grid-template-areas:
+            "header header"
+            "content content"
+            "section section"
+            "buttons buttons"
+            "footer footer"
+            "copy copy";
+        scroll-behavior: smooth;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #ffffff;
+        background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
+    }
+
+    .about-me {
+        margin-top: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .about-me-container,
+    .work-experience-container {
+        width: 35%;
+        font-size: 1.6rem;
+    }
+
+    .wrk-exp-div {
+        font-size: 1.3rem;
+    }
+
+    .name-title {
+        font-size: 42px;
+        font-weight: bold;
+    }
+
+    .position-title {
+        font-size: 30px;
+    }
+
+    .social-media {
+        font-size: 25px;
+    }
+
+    .profile-image {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .description {
+        font-size: 28px;
+        max-width: 40rem;
+        margin-top: 10px;
+    }
+
+    .wrk-exp-div {
+        display: flex;
+        justify-content: space-between;
+        max-width: 40rem;
+    }
+
+    .work-experience-list li p {
+        font-size: 22px;
+
+    }
+
+    .education-details-child {
+        margin-top: 2rem;
+    }
+
+    .sub-headings-education {
+        font-size: 42px;
+        border-bottom: 3px solid orangered;
+        width: 23.5rem;
+        color: #FFFAE6;
+    }
+
+    th {
+        font-size: 32px;
+    }
+
+    td {
+        font-size: 24px;
+    }
+
+    .dropdown-btn {
+        border-radius: 5px;
+        background-color: #04364A;
+        padding: 1rem;
+        min-width: 20rem;
+        font-size: 24px;
+        height: 5rem;
+        color: #d6f5f5;
+    }
+
+    .hireme-btn {
+        border-radius: 5px;
+        border: 5px solid #04364A;
+        background-color: transparent;
+        padding: 1rem;
+        min-width: 20rem;
+        font-size: 24px;
+        height: 5rem;
+    }
+}
+
+@media (width <=1500px) {
+    .body {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-areas:
+            "header"
+            "content"
+            "aside"
+            "section"
+            "buttons"
+            "footer"
+            "copy";
+        scroll-behavior: smooth;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #ffffff;
+        background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
+    }
+
+    .about-me {
+        margin-top: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .about-me-container,
+    .work-experience-container {
+        width: 70%;
+        font-size: 1.6rem;
+    }
+
+    .wrk-exp-div {
+        font-size: 1.3rem;
+    }
+
+    .name-title {
+        font-size: 30px;
+    }
+
+    .social-media {
+        font-size: 25px;
+    }
+
+    .profile-image {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media (width <=970px) {
+    .body {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-areas:
+            "header"
+            "content"
+            "aside"
+            "section"
+            "buttons"
+            "footer"
+            "copy";
+        scroll-behavior: smooth;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #ffffff;
+        background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
+    }
+
+    .about-me {
+        margin-top: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .about-me-container,
+    .work-experience-container {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+
+    .wrk-exp-div {
+        font-size: 1.3rem;
+    }
+
+    .name-title {
+        font-size: 20px;
+    }
+
+    .social-media {
+        font-size: 20px;
+    }
+
+    .social-media p {
+        display: none;
+    }
+
+    .profile-image {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media (width <=890px) {
+    .body {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-areas:
+            "header"
+            "content"
+            "aside"
+            "section"
+            "buttons"
+            "footer"
+            "copy";
+        scroll-behavior: smooth;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #ffffff;
+        background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
+    }
+
+    .about-me {
+        margin-top: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .about-me-container,
+    .work-experience-container {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+
+    .wrk-exp-div {
+        font-size: 1.3rem;
+    }
+
+    .name-title {
+        font-size: 20px;
+    }
+
+    .social-media {
+        font-size: 20px;
+    }
+
+    .social-media p {
+        display: none;
+    }
+
+    .profile-image {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media (width <=630px) {
+    .body {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-areas:
+            "header"
+            "content"
+            "aside"
+            "section"
+            "buttons"
+            "footer"
+            "copy";
+        scroll-behavior: smooth;
+        min-height: 100vh;
+        padding: 5%;
+        background-color: #ffffff;
+        background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
+    }
+
+    .about-me {
+        margin-top: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .about-me-container,
+    .work-experience-container {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+
+    .wrk-exp-div {
+        font-size: 1.3rem;
+    }
+
+    .name-title {
+        font-size: 1rem;
+    }
+
+    .position-title {
+        font-size: 1rem;
+    }
+
+    .social-media {
+        font-size: 20px;
+    }
+
+    .social-media p {
+        display: none;
+    }
+
+    .profile-image {
+        display: none;
+    }
+
+    table {
+        width: 50%;
+        font-size: 12px;
+    }
+}
+
+@media (width <=490px) {
+    .body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "content"
+            "aside"
+            "section"
+            "buttons"
+            "footer"
+            "copy";
+        scroll-behavior: smooth;
+        min-height: 100vh;
+        padding: 5%;
+        background-color: #ffffff;
+        background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
+    }
+
+    .about-me {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .about-me-container,
+    .work-experience-container {
+        max-width: 80%;
+        font-size: 1.3rem;
+    }
+
+    .wrk-exp-div {
+        font-size: 1.3rem;
+    }
+
+    .name-title {
+        font-size: 1rem;
+    }
+
+    .position-title {
+        font-size: 1rem;
+    }
+
+    .social-media {
+        font-size: 20px;
+    }
+
+    .social-media p {
+        display: none;
+    }
+
+    .profile-image {
+        display: none;
+    }
+
+    .navbar {
+        max-width: 80%;
+    }
+
+    .education-details {
+        max-width: 20%;
+    }
+
+    table {
+        width: 50%;
+        font-size: 10px;
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -8,17 +419,37 @@
     width: 0px;
 }
 
-.body {
-    scroll-behavior: smooth;
-    min-height: 100vh;
-    padding: 2rem;
-    background-color: #ffffff;
-    background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
+.navbar-child {
+    display: grid;
+    grid-area: header;
+}
+
+.about-me-child {
+    display: grid;
+    grid-area: content;
+}
+
+.education-details-child {
+    display: grid;
+    grid-area: section;
+}
+
+.buttons-child {
+    display: grid;
+    grid-area: buttons;
+}
+
+.footer-child {
+    display: grid;
+    grid-area: footer;
+}
+
+.copy {
+    display: grid;
+    grid-area: copy;
 }
 
 .profile-image {
-    width: 8rem;
-    height: 8rem;
     border-radius: 100%;
 }
 
@@ -29,12 +460,7 @@
 }
 
 .name-title {
-    font-size: 42px;
     font-weight: bold;
-}
-
-.position-title {
-    font-size: 30px;
 }
 
 .profile {
@@ -57,7 +483,6 @@
 
 .social-media p {
     margin-left: 10px;
-    font-size: 24px;
     text-decoration: none;
 }
 
@@ -74,12 +499,13 @@ a:hover {
     display: flex;
     justify-content: space-between;
     place-items: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #04364A;
     height: 10rem;
     border-radius: 20px;
     color: #e2e7e7;
+    /* max-width: 100vw; */
 }
 
 .about-me {
@@ -89,23 +515,16 @@ a:hover {
 }
 
 .sub-headings {
-    font-size: 42px;
     border-bottom: 3px solid orangered;
-    width: 13rem;
     color: #FFFAE6;
 }
 
 .sub-headings-workExperience {
-    font-size: 42px;
     border-bottom: 3px solid orangered;
-    width: 22.5rem;
     color: #FFFAE6;
 }
 
 .description {
-    font-size: 28px;
-    width: 40rem;
-    margin-top: 10px;
     font-family: tahoma;
     text-align: justify;
 }
@@ -141,18 +560,10 @@ a:hover {
 .wrk-exp-div {
     display: flex;
     justify-content: space-between;
-    width: 40rem;
-}
-
-.work-experience-list li p {
-    font-size: 22px;
-
 }
 
 .sub-headings-education {
-    font-size: 42px;
     border-bottom: 3px solid orangered;
-    width: 23.5rem;
     color: #FFFAE6;
 }
 
@@ -162,12 +573,13 @@ a:hover {
     background-color: #176B87;
     padding: 2rem;
     border-radius: 20px;
+    max-width: 70%;
+    margin: 10px;
 }
 
 .education-details:hover {
     background-color: #1a7897;
 }
-
 
 th,
 tr,
@@ -179,15 +591,7 @@ td {
 table {
     border-collapse: collapse;
     margin-top: 20px;
-    width: 100%;
-}
-
-th {
-    font-size: 32px;
-}
-
-td {
-    font-size: 24px;
+    max-width: 100%;
 }
 
 .buttons {
@@ -201,7 +605,7 @@ td {
     border-radius: 5px;
     background-color: #04364A;
     padding: 1rem;
-    width: 20rem;
+    max-width: 20rem;
     font-size: 24px;
     height: 5rem;
     color: #d6f5f5;
@@ -212,7 +616,7 @@ td {
     border: 5px solid #04364A;
     background-color: transparent;
     padding: 1rem;
-    width: 20rem;
+    max-width: 20rem;
     font-size: 24px;
     height: 5rem;
 }
@@ -229,7 +633,7 @@ td {
     border-radius: 5px;
     background-color: #054d69;
     padding: 1rem;
-    width: 20rem;
+    max-width: 20rem;
     font-size: 24px;
     transition: ease;
     transition-duration: 200ms;
