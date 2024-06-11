@@ -432,6 +432,8 @@
 .education-details-child {
     display: grid;
     grid-area: section;
+    justify-items: center;
+    
 }
 
 .buttons-child {
@@ -573,8 +575,12 @@ a:hover {
     background-color: #176B87;
     padding: 2rem;
     border-radius: 20px;
-    max-width: 70%;
+    max-width: 100%;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
 }
 
 .education-details:hover {
