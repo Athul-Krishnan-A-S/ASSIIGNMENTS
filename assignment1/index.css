@@ -12,7 +12,7 @@
         scroll-behavior: smooth;
         min-height: 100vh;
         padding: 2rem;
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
         background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
     }
 
@@ -125,7 +125,7 @@
         scroll-behavior: smooth;
         min-height: 100vh;
         padding: 2rem;
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
         background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
     }
 
@@ -177,7 +177,7 @@
         scroll-behavior: smooth;
         min-height: 100vh;
         padding: 2rem;
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
         background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
     }
 
@@ -233,7 +233,7 @@
         scroll-behavior: smooth;
         min-height: 100vh;
         padding: 2rem;
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
         background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
     }
 
@@ -289,7 +289,7 @@
         scroll-behavior: smooth;
         min-height: 100vh;
         padding: 5%;
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
         background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
     }
 
@@ -354,7 +354,7 @@
         min-height: 100vh;
         padding: 5%;
         background-color: #ffffff;
-        background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750);
+        /* background-image: linear-gradient(to bottom right, #57A6A1, #344C64, #577B8D, #240750); */
     }
 
     .about-me {
@@ -408,6 +408,14 @@
         font-size: 10px;
     }
 }
+body{
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
 
 * {
     padding: 0;
@@ -433,7 +441,7 @@
     display: grid;
     grid-area: section;
     justify-items: center;
-    
+
 }
 
 .buttons-child {
